@@ -65,6 +65,7 @@ if __name__ == '__main__':
 
                 if one_page.get('result'):
                     for item in one_page.get("listItem"):
+                        
                         # 根据实际情况获取所需的字段，数据格式在 help.txt 文件中有示例。
                         title = item.get("title").encode("utf-8")
                         nick = item.get("nick").encode("utf-8")
